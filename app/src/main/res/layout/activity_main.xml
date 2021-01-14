@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="AGE"
+        android:text="DANIEL"
         android:textColor="#FFF"
         android:background="@color/purple_500"
         android:padding="10dp"
@@ -40,6 +40,7 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingVertical="10sp"
@@ -49,6 +50,7 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/selectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/textColor"
@@ -78,6 +80,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:textColor="@color/textColor"
         android:text="In minutes to date" />
 
 
